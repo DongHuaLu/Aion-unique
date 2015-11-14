@@ -925,19 +925,19 @@ public class SM_SYSTEM_MESSAGE extends AionServerPacket
 	public static SM_SYSTEM_MESSAGE STR_CHAT_FARMER_001()
 	{
 		// Leave the crops alone!
-		return new SM_SYSTEM_MESSAGE(390270, true);
+		return new SM_SYSTEM_MESSAGE(390270, true,null);
 	}
 	
 	public static SM_SYSTEM_MESSAGE STR_CHAT_FARMER_002()
 	{
 		// I spent so much time and effort to grow these crops!
-		return new SM_SYSTEM_MESSAGE(390271, true);
+		return new SM_SYSTEM_MESSAGE(390271, true,null);
 	}
 	
 	public static SM_SYSTEM_MESSAGE STR_CHAT_FARMER_003()
 	{
 		// "Darn, those wretched Kerubs!"
-		return new SM_SYSTEM_MESSAGE(390272, true);
+		return new SM_SYSTEM_MESSAGE(390272, true,null);
 	}
 	
 
