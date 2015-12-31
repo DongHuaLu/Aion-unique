@@ -1,0 +1,22 @@
+[ERROR 2015-11-14 16:54:57] com.aionemu.commons.versionning.Version:65 - Unable to get Soft information
+File name 'D:\WorkSpace2\Aion-unique\AE-go_Commons\bin' isn't a valid jar
+java.io.FileNotFoundException: D:\WorkSpace2\Aion-unique\AE-go_Commons\bin (拒绝访问。)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:114)
+	at java.util.jar.JarFile.<init>(JarFile.java:135)
+	at java.util.jar.JarFile.<init>(JarFile.java:99)
+	at com.aionemu.commons.versionning.Version.loadInformation(Version.java:54)
+	at com.aionemu.commons.versionning.Version.<init>(Version.java:45)
+	at com.aionemu.gameserver.utils.AEVersions.<clinit>(AEVersions.java:32)
+	at com.aionemu.gameserver.GameServer.main(GameServer.java:109)
+[ERROR 2015-11-14 16:54:57] com.aionemu.commons.versionning.Version:65 - Unable to get Soft information
+File name 'D:\WorkSpace2\Aion-unique\AE-go_GameServer\bin' isn't a valid jar
+java.io.FileNotFoundException: D:\WorkSpace2\Aion-unique\AE-go_GameServer\bin (拒绝访问。)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:114)
+	at java.util.jar.JarFile.<init>(JarFile.java:135)
+	at java.util.jar.JarFile.<init>(JarFile.java:99)
+	at com.aionemu.commons.versionning.Version.loadInformation(Version.java:54)
+	at com.aionemu.commons.versionning.Version.<init>(Version.java:45)
+	at com.aionemu.gameserver.utils.AEVersions.<clinit>(AEVersions.java:33)
+	at com.aionemu.gameserver.GameServer.main(GameServer.java:109)

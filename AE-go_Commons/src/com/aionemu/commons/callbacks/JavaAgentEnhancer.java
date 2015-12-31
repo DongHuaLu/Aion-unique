@@ -151,16 +151,15 @@ public class JavaAgentEnhancer implements ClassFileTransformer
 		ClassPool cp = new ClassPool();
 		cp.appendClassPath(new LoaderClassPath(loader));
 		CtClass clazz = cp.makeClass(new ByteArrayInputStream(clazzBytes));
-
+		
 		Set<CtMethod> methdosToEnhance = new HashSet<CtMethod>();
-
+		
 		for(CtMethod method : clazz.getMethods())
 		{
 			if(!isEnhancable(method))
 			{
 				continue;
 			}
-
 			methdosToEnhance.add(method);
 		}
 
@@ -223,6 +222,7 @@ public class JavaAgentEnhancer implements ClassFileTransformer
 
 		method.insertBefore(writeBeforeMethod(method, paramLength, listenerClassName));
 		method.insertAfter(writeAfterMethod(method, paramLength, listenerClassName));
+		
 	}
 
 	/**

@@ -1,0 +1,48 @@
+[INFO] 2015-10-10 16:18:06 - com.aionemu.loginserver.configs.Config:105 - Loading: ./config/network/network.properties
+[INFO] 2015-10-10 16:18:06 - com.aionemu.loginserver.configs.Config:106 - Loading: ./config/network/database.properties
+[INFO] 2015-10-10 16:18:07 - com.aionemu.commons.database.DatabaseFactory:133 - Successfully connected to database
+[INFO] 2015-10-10 16:18:07 - com.aionemu.commons.database.dao.DAOManager:70 - Loaded 4 DAO implementations.
+[INFO] 2015-10-10 16:18:07 - com.aionemu.loginserver.network.ncrypt.KeyGen:60 - Initializing Key Generator...
+[INFO] 2015-10-10 16:18:09 - com.aionemu.loginserver.GameServerTable:68 - GameServerTable loaded 0 registered GameServers.
+[INFO] 2015-10-10 16:18:09 - com.aionemu.loginserver.controller.BannedIpController:63 - BannedIpController loaded 0 IP bans.
+[INFO] 2015-10-10 16:18:09 - com.aionemu.commons.network.NioServer:121 - Server listening on all available IPs on Port 9014 for Gs Connections
+[INFO] 2015-10-10 16:18:09 - com.aionemu.commons.network.NioServer:121 - Server listening on all available IPs on Port 2106 for Aion Connections
+[INFO] 2015-10-10 16:18:09 - com.aionemu.commons.utils.AEInfos:126 - OS: Windows 7 Build: 6.1
+[INFO] 2015-10-10 16:18:09 - com.aionemu.commons.utils.AEInfos:126 - OS Arch: amd64
+[INFO] 2015-10-10 16:18:09 - com.aionemu.commons.utils.AEInfos:126 - ..................................................
+[INFO] 2015-10-10 16:18:09 - com.aionemu.commons.utils.AEInfos:126 - ..................................................
+[INFO] 2015-10-10 16:18:09 - com.aionemu.commons.utils.AEInfos:120 - Avaible CPU(s): 4
+[INFO] 2015-10-10 16:18:09 - com.aionemu.commons.utils.AEInfos:120 - Processor(s) Identifier: Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
+[INFO] 2015-10-10 16:18:09 - com.aionemu.commons.utils.AEInfos:120 - ..................................................
+[INFO] 2015-10-10 16:18:09 - com.aionemu.commons.utils.AEInfos:120 - ..................................................
+[INFO] 2015-10-10 16:18:09 - com.aionemu.commons.utils.AEInfos:132 - Java Platform Information
+[INFO] 2015-10-10 16:18:09 - com.aionemu.commons.utils.AEInfos:132 - Java Runtime  Name: Java(TM) SE Runtime Environment
+[INFO] 2015-10-10 16:18:09 - com.aionemu.commons.utils.AEInfos:132 - Java Version: 1.7.0_79
+[INFO] 2015-10-10 16:18:09 - com.aionemu.commons.utils.AEInfos:132 - Java Class Version: 51.0
+[INFO] 2015-10-10 16:18:09 - com.aionemu.commons.utils.AEInfos:132 - ..................................................
+[INFO] 2015-10-10 16:18:09 - com.aionemu.commons.utils.AEInfos:132 - ..................................................
+[INFO] 2015-10-10 16:18:09 - com.aionemu.commons.utils.AEInfos:138 - Virtual Machine Information (JVM)
+[INFO] 2015-10-10 16:18:09 - com.aionemu.commons.utils.AEInfos:138 - JVM Name: Java HotSpot(TM) 64-Bit Server VM
+[INFO] 2015-10-10 16:18:09 - com.aionemu.commons.utils.AEInfos:138 - JVM installation directory: C:\Program Files\Java\jdk1.7.0_79\jre
+[INFO] 2015-10-10 16:18:09 - com.aionemu.commons.utils.AEInfos:138 - JVM version: 24.79-b02
+[INFO] 2015-10-10 16:18:09 - com.aionemu.commons.utils.AEInfos:138 - JVM Vendor: Oracle Corporation
+[INFO] 2015-10-10 16:18:09 - com.aionemu.commons.utils.AEInfos:138 - JVM Info: mixed mode
+[INFO] 2015-10-10 16:18:09 - com.aionemu.commons.utils.AEInfos:138 - ..................................................
+[INFO] 2015-10-10 16:18:09 - com.aionemu.commons.utils.AEInfos:138 - ..................................................
+[INFO] 2015-10-10 16:18:09 - com.aionemu.commons.utils.AEInfos:114 - +----
+[INFO] 2015-10-10 16:18:09 - com.aionemu.commons.utils.AEInfos:114 - | Global Memory Informations at 16:18:09:
+[INFO] 2015-10-10 16:18:09 - com.aionemu.commons.utils.AEInfos:114 - |    |
+[INFO] 2015-10-10 16:18:09 - com.aionemu.commons.utils.AEInfos:114 - | Allowed Memory: 906752 KB
+[INFO] 2015-10-10 16:18:09 - com.aionemu.commons.utils.AEInfos:114 - |    |= Allocated Memory: 77824 KB (8.5827%)
+[INFO] 2015-10-10 16:18:09 - com.aionemu.commons.utils.AEInfos:114 - |    |= Non-Allocated Memory: 828928 KB (91.4173%)
+[INFO] 2015-10-10 16:18:09 - com.aionemu.commons.utils.AEInfos:114 - | Allocated Memory: 77824 KB
+[INFO] 2015-10-10 16:18:09 - com.aionemu.commons.utils.AEInfos:114 - |    |= Used Memory: 40480 KB (4.4643%)
+[INFO] 2015-10-10 16:18:09 - com.aionemu.commons.utils.AEInfos:114 - |    |= Unused (cached) Memory: 37344 KB (4.1184%)
+[INFO] 2015-10-10 16:18:09 - com.aionemu.commons.utils.AEInfos:114 - | Useable Memory: 866272 KB (95.5357%)
+[INFO] 2015-10-10 16:18:09 - com.aionemu.commons.utils.AEInfos:114 - +----
+[INFO] 2015-10-10 16:18:09 - com.aionemu.loginserver.LoginServer:94 - AE Login Server started in 2 seconds.
+[INFO] 2015-10-10 16:18:17 - com.aionemu.loginserver.network.gameserver.GsConnection:87 - GS connection from: 127.0.0.1
+[INFO] 2015-10-10 16:18:18 - com.aionemu.loginserver.network.gameserver.GsConnection:100 - recived packet: [C] 0x00 CM_GS_AUTH
+[INFO] 2015-10-10 16:18:18 - com.aionemu.loginserver.GameServerTable:100 - GameServer [ID:null] 127.0.0.1 requestedID=1 not aviable!
+[INFO] 2015-10-10 16:18:18 - com.aionemu.loginserver.network.gameserver.GsConnection:204 - sending packet: [S] 0x00 SM_GS_AUTH_RESPONSE and closing connection after that.
+[INFO] 2015-10-10 16:18:18 - com.aionemu.loginserver.network.gameserver.GsConnection:145 - GameServer [ID:null] 127.0.0.1 disconnected
